@@ -56,7 +56,7 @@ page = st.sidebar.radio("Navigation",
 import base64
 import streamlit as st
 
-image_path = r"C:\Users\ACER\OneDrive\Documents\Desktop\AI-ML\Practice\Basic Web\NPL\download1.jpg"
+image_path = r"NPL\download1.jpg"
 
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
